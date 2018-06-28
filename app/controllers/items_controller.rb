@@ -11,6 +11,9 @@ end
 def show
 end
 
+def get
+end
+
 
 def new
   @item =  current_user.items.build
